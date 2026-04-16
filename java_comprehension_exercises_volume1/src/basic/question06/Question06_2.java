@@ -6,7 +6,12 @@ public class Question06_2 {
 
 	public static void main(String[] args) throws IOException {
 
-		// TODO:ここに実装
-		
+		String[] studentName = { "かなこ", "ゆうた", "あい", "はるひ", "かずき" };
+
+		for (String str : studentName) {
+			System.out.println(str);
+
+		}
+
 	}
 }
