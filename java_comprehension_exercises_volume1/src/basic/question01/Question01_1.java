@@ -11,12 +11,12 @@ public class Question01_1 {
 		int price = 120;
 		String item = "ノート";
 
-		System.out.println(price + "\n+" + item);
+		System.out.println(price + "\n" + item);
 
 		price = 200;
 		item = "鉛筆";
 
-		System.out.println(price + "\n+" + item);
+		System.out.println(price + "\n" + item);
 
 	}
 
