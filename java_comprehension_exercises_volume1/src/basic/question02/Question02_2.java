@@ -16,7 +16,8 @@ public class Question02_2 {
 		System.out.println("商品の名前と値段を入力してください。");
 		String itemName = reader.readLine();
 
-		int itemPrice = Integer.parseInt(reader.readLine());
+		String itemPriceStr = reader.readLine();
+		int itemPrice = Integer.parseInt(itemPriceStr);
 		System.out.println("商品の名前は" + itemName + "です。");
 		System.out.println("商品の値段は" + itemPrice + "円です。");
 
