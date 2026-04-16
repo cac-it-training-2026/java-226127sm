@@ -17,7 +17,7 @@ public class Question01_1 {
 		item = "鉛筆";
 
 		System.out.println(price + "\n" + item);
-
+		//a
 	}
 
 }
